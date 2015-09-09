@@ -1,20 +1,20 @@
-Kitchensink on OpenShift
+Kitchensink on DeployDock
 =========================
 
 This is the kitchensink JBoss quickstart app.  You can find more info @ http://www.jboss.org/jdf/quickstarts/jboss-as-quickstart/guide/KitchensinkQuickstart/
 
-Running on OpenShift
+Running on DeployDock
 --------------------
 
-Create an account at https://www.openshift.com
+Create an account at https://www.deploydock.com
 
 Create a jbossas-7 application
 
-    rhc app create kitchensink jbossas-7 --from-code git://github.com/openshift/kitchensink-example.git
+    dk app create kitchensink jbossas-7 --from-code git://github.com/Meros-io/kitchensink-example.git
 
 That's it, you can now checkout your application at:
 
-    http://kitchensink-$namespace.rhcloud.com
+    http://kitchensink-$namespace.apps.deploydock.io
 
 PostgreSQL as a backend
 -----------------------
